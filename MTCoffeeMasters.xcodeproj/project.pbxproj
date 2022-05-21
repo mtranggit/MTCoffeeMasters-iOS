@@ -11,6 +11,9 @@
 		F67D812F282F7E8300D6AC9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D812E282F7E8300D6AC9F /* ContentView.swift */; };
 		F67D8131282F7E8500D6AC9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67D8130282F7E8500D6AC9F /* Assets.xcassets */; };
 		F67D8134282F7E8500D6AC9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67D8133282F7E8500D6AC9F /* Preview Assets.xcassets */; };
+		F67D813B282FEBAC00D6AC9F /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D813A282FEBAC00D6AC9F /* Offer.swift */; };
+		F67D813D28370F1D00D6AC9F /* OffersPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D813C28370F1D00D6AC9F /* OffersPage.swift */; };
+		F6827C7528383DAD00816C8F /* AppTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6827C7428383DAD00816C8F /* AppTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		F67D812E282F7E8300D6AC9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F67D8130282F7E8500D6AC9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F67D8133282F7E8500D6AC9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F67D813A282FEBAC00D6AC9F /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		F67D813C28370F1D00D6AC9F /* OffersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersPage.swift; sourceTree = "<group>"; };
+		F6827C7428383DAD00816C8F /* AppTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTitle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				F67D812C282F7E8300D6AC9F /* MTCoffeeMastersApp.swift */,
 				F67D812E282F7E8300D6AC9F /* ContentView.swift */,
+				F6827C7428383DAD00816C8F /* AppTitle.swift */,
+				F67D813C28370F1D00D6AC9F /* OffersPage.swift */,
+				F67D813A282FEBAC00D6AC9F /* Offer.swift */,
 				F67D8130282F7E8500D6AC9F /* Assets.xcassets */,
 				F67D8132282F7E8500D6AC9F /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67D813B282FEBAC00D6AC9F /* Offer.swift in Sources */,
+				F67D813D28370F1D00D6AC9F /* OffersPage.swift in Sources */,
 				F67D812F282F7E8300D6AC9F /* ContentView.swift in Sources */,
 				F67D812D282F7E8300D6AC9F /* MTCoffeeMastersApp.swift in Sources */,
+				F6827C7528383DAD00816C8F /* AppTitle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MTCoffeeMasters/Preview Content\"";
+				DEVELOPMENT_TEAM = B6W3S53VHK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MTCoffeeMasters/Preview Content\"";
+				DEVELOPMENT_TEAM = B6W3S53VHK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
