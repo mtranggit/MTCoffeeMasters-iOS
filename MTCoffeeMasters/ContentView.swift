@@ -8,24 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var cartManager: CartManager
+    
     var body: some View {
         TabView {
-            Text("Home")
+            MenuPage()
                 .tabItem {
                     Image(systemName: "cup.and.saucer")
                     Text("Menu")
                 }
-            Text("Offers")
+            OffersPage()
                 .tabItem {
                     Image(systemName: "tag")
                     Text("Offers")
                 }
-            Text("My order")
+            OrdersPage()
                 .tabItem {
                     Image(systemName: "cart")
                     Text("My Order")
                 }
-            Text("Info")
+                .badge(cartManager.cart.count)
+            InfoPage()
                 .tabItem {
                     Image(systemName: "info.circle")
                     Text("Info")
@@ -60,6 +63,10 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView()
+                .previewDevice("iPhone SE (2nd generation)")
+        }
     }
 }
